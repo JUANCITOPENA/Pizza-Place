@@ -31,3 +31,46 @@
     font-size: 35px;
   
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Estilos para pantallas con un ancho mínimo de 768px y un ancho máximo de 1024px */
+   
+    /* Estilo personalizado */
+   .card {
+      margin-bottom: 30px;
+      width: 95%;
+  }
+  
+  .card-img-top {
+      height: 250px;
+      object-fit: cover;
+      width: 95%;
+  }
+  
+  .card-title {
+      margin-bottom: 0;
+      width: 95%;
+  }
+  
+  .card-text {
+      text-align: justify;
+      width: 95%;
+  }
+  
+  .card-text-price {
+      text-align: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight: 700;
+      font-size: 35px;
+      background-color: rgb(85, 237, 82);
+      border-radius: 15%;
+  }
+  
+  .ver-fuente-btn:hover {
+      background-color: #12e007;
+      color: #fff;
+      font-size: 35px;
+    
+  }
+  }
+  

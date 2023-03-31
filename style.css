@@ -1,0 +1,33 @@
+ /* Estilo personalizado */
+ .card {
+    margin-bottom: 30px;
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-title {
+    margin-bottom: 0;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.card-text-price {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    background-color: rgb(85, 237, 82);
+    border-radius: 15%;
+}
+
+.ver-fuente-btn:hover {
+    background-color: #12e007;
+    color: #fff;
+    font-size: 35px;
+  
+}

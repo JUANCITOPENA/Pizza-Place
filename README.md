@@ -9,4 +9,4 @@ Este proyecto es una página web que muestra una lista de ofertas de pizzas de u
 
 ## Captura de Pantalla:
 
-![](fondo0.png)
+![](fondo1.png)

@@ -32,45 +32,33 @@
   
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
-    /* Estilos para pantallas con un ancho mínimo de 768px y un ancho máximo de 1024px */
-   
-    /* Estilo personalizado */
-   .card {
-      margin-bottom: 30px;
-      width: 95%;
+/* Estilos para pantallas grandes */
+@media (min-width: 992px) {
+  .col-lg-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
   }
-  
-  .card-img-top {
-      height: 250px;
-      object-fit: cover;
-      width: 95%;
+}
+
+/* Estilos para pantallas medianas */
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
   }
-  
-  .card-title {
-      margin-bottom: 0;
-      width: 95%;
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 767px) {
+  .col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
   }
-  
-  .card-text {
-      text-align: justify;
-      width: 95%;
-  }
-  
-  .card-text-price {
-      text-align: center;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      font-weight: 700;
-      font-size: 35px;
-      background-color: rgb(85, 237, 82);
-      border-radius: 15%;
-  }
-  
-  .ver-fuente-btn:hover {
-      background-color: #12e007;
-      color: #fff;
-      font-size: 35px;
-    
-  }
-  }
+}
+
+.card-img-top {
+  max-width: 100%;
+  height: auto;
+}
+}
   
